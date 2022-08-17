@@ -6,7 +6,7 @@ const mongodb = require("mongodb")
 const bodyParser = require("body-parser")
 require('dotenv').config()
 
-
+// use the Mongo_uri as a string 
 const url = process.env.MONGO_URI
 
 const connectionParams = {
